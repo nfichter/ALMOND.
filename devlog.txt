@@ -5,3 +5,12 @@ Chloe Delfau, Noah Fichter, Asher Lasday, Jack Schluger
 =============== MM/DD/YY ===============
 firstL -- HH:MM
     Brief explanation of task
+    
+=============== 05/11/17 ===============
+ALMOND. -- 23:00
+    Completed design document
+    
+=============== 05/12/17 ===============
+ALMOND. -- 13:20
+    Reviewed other groups' design documents
+    Reviewed comments on our own design document made by other groups
