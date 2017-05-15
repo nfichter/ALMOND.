@@ -14,3 +14,10 @@ ALMOND. -- 23:00
 ALMOND. -- 13:20
     Reviewed other groups' design documents
     Reviewed comments on our own design document made by other groups
+
+=============== 05/15/17 ===============
+ALMOND. -- 14:04
+- Met with Ms. Genkina, discussed goals for check in next week. Goals are:
+  - figure out how we will render the map (images) and display 1-2 floors
+  - start thinking about exception cases
+  - basic rendering of the site
