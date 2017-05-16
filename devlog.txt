@@ -21,3 +21,7 @@ ALMOND. -- 14:04
   - figure out how we will render the map (images) and display 1-2 floors
   - start thinking about exception cases
   - basic rendering of the site
+
+=============== 05/16/17 ===============
+ALMOND. -- 14:05
+- Discussed various mock-ups for floor maps to display to the users, focusing on simplicity of use
