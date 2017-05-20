@@ -4,24 +4,32 @@ Chloe Delfau, Noah Fichter, Asher Lasday, Jack Schluger
 
 =============== MM/DD/YY ===============
 firstL -- HH:MM
-    Brief explanation of task
+- Brief explanation of task
     
 =============== 05/11/17 ===============
 ALMOND. -- 23:00
-    Completed design document
+- Completed design document
     
 =============== 05/12/17 ===============
 ALMOND. -- 13:20
-    Reviewed other groups' design documents
-    Reviewed comments on our own design document made by other groups
+- Reviewed other groups' design documents
+- Reviewed comments on our own design document made by other groups
 
 =============== 05/15/17 ===============
 ALMOND. -- 14:04
-    Met with Ms. Genkina, discussed goals for check in next week. Goals are:
-        - figure out how we will render the map (images) and display 1-2 floors
-        - start thinking about exception cases
-        - basic rendering of the site
+- Met with Ms. Genkina, discussed goals for check in next week. Goals are:
+  - figure out how we will render the map (images) and display 1-2 floors
+  - start thinking about exception cases
+  - basic rendering of the site
 
 =============== 05/16/17 ===============
 ALMOND. -- 14:05
-    Discussed various mock-ups for floor maps to display to the users, focusing on simplicity of use
+- Discussed various mock-ups for floor maps to display to the users, focusing on simplicity of use
+
+=============== 05/20/17 ===============
+jackS -- 16:15
+- imported foundation to our project
+- created base.html template and index.html to start making a front end
+- made app.py run so i could render templates
+
+
