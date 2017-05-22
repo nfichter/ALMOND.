@@ -44,3 +44,9 @@ jackS -- 16:15
 noahF -- 20:15
 - made a cleaner version of the files we were given without all the room numbers and visual cues so we can add these on top in SVG
     - floors 7, 8, 9
+
+=============== 05/21/17 ===============
+chloeD and asherL -- 00:35
+- researched a lot on image/svg conversion
+- learned about locating coordinates on svg files (NOT PIXELS!!)
+- discussed game plan for tomorrow's minipresentation and also for how to move forward with the project (what we should and shouldn't do using svg)
