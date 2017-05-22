@@ -26,7 +26,7 @@ ALMOND. -- 14:04
 ALMOND. -- 14:05
 - Discussed various mock-ups for floor maps to display to the users, focusing on simplicity of use
 
-=============== 05/16/17 ===============
+=============== 05/19/17 ===============
 chloeD -- 14:05
 - created some basic files (app.py, initialize.py, dbmanager.py) to anticipate the work over the weekend
 
