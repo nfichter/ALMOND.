@@ -32,4 +32,7 @@ jackS -- 16:15
 - created base.html template and index.html to start making a front end
 - made app.py run so i could render templates
 
-
+=============== 05/21/17 ===============
+jackS -- 16:15
+- made the mechanism for displaying one svg (the one thats the map of the current floor) diplay at a time
+- change which is displayed with a up and down buttons
