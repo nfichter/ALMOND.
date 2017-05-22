@@ -45,6 +45,7 @@ svg {
 
 .input-number-group .input-number,
 .input-number-group .input-number-decrement,
+.input-number-group .input-number-enter,
 .input-number-group .input-number-increment {
     border: 1px solid #cacaca;
     height: 40px;
@@ -68,6 +69,19 @@ svg {
     font-weight: 400;
 }
 
+.input-number-group .input-number-enter {
+    display: block;
+    width: 80px;
+    background: #e6e6e6;
+    color: #0a0a0a;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: .3rem;
+}
+
 .input-number-group .input-number-decrement {
     margin-right: 0.3rem;
 }
@@ -75,4 +89,3 @@ svg {
 .input-number-group .input-number-increment {
     margin-left: 0.3rem;
 }
-

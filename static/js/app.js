@@ -48,4 +48,16 @@ $('.input-number-decrement').click(function() {
     
 });
 
+//enter the floor counter
+$('.input-number-enter').click(function() {
+    var $input = $(this).parents('.input-number-group').find('.input-number');
+    var val = parseInt($input.val(), 10);
+    if (val > 1) {
+	$input.val(val - 1);
+	document.getElementById(val).setAttribute('display', 'none');
+	document.getElementById(val - 1).setAttribute('display', 'inline');
+    }
+    
+});
+
     
