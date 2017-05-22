@@ -36,3 +36,7 @@ jackS -- 16:15
 jackS -- 16:15
 - made the mechanism for displaying one svg (the one thats the map of the current floor) diplay at a time
 - change which is displayed with a up and down buttons
+
+noahF -- 20:15
+- made a cleaner version of the files we were given without all the room numbers and visual cues so we can add these on top in SVG
+    - floors 7, 8, 9
