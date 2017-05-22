@@ -1,3 +1,18 @@
+body {
+    padding: 20px;
+}
+svg {
+    border: 1px solid black;
+}
+
+#map {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
 
 .input-number-group {
     display: -webkit-flex;
