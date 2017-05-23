@@ -53,3 +53,7 @@ chloeD and asherL -- 00:35
 
 jackS -- 13:50
 - tried to add an enter button for a user to enter a different floor rather than pressing + or - a bunch of times
+
+=============== 05/23/17 ===============
+jackS -- 20:35
+- added a basic site structure to the front end
