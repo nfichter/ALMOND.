@@ -1,4 +1,4 @@
-3$(document).foundation()
+$(document).foundation()
 console.log("hello world");
 
 //this div will contain a list of 10 svg's, each of which will be a map of one floor
@@ -6,7 +6,7 @@ var map = document.getElementById("map");
 
 var i;
 for (i = 1; i <= 10; i++){
-    if (id - 7) {
+    if (i - 7) {
 	console.log("next svg");
 	var newSvg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
 	newSvg.id = i;
@@ -62,4 +62,5 @@ $('.input-number-enter').click(function() {
     
 });
 
-    
+$("[data-menu-underline-from-center] a").addClass("underline-from-center");
+

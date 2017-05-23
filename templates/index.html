@@ -6,28 +6,43 @@
 
 
 {% block body %}
-<h1>Get Around Stuy!.com</h1>
-<div id="map">
-  <svg id="7" display="none" height="500" width="1000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-    <image x="0" y="0" height="500" width="1000"  xlink:href="static/img/7-rooms.svg" />
-  </svg>
+
+<div class="holy-grail-grid">
+  <div class="holy-grail-header">
+    <h3>Get Around Stuy!.net</h3>
+  </div>
+
+  <div class="holy-grail-left">
+    <h3>Get Directions</h3>
+  </div>
+
+  <div class="holy-grail-middle">
+    <h3>Map</h3>
+    <div id="map">
+      <svg id="7" display="none" height="500" width="1000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+	<image x="0" y="0" height="500" width="1000"  xlink:href="static/img/7-rooms.svg" />
+      </svg>
+    </div>
+
+    <h6 class="text-center">Current Floor</h6>
+    <div class="input-group input-number-group">
+      <div class="input-group-button">
+	<span class="input-number-decrement">-</span>
+      </div>
+      <input class="input-number" id="current_floor" type="number" value="1" min="1" max="10">
+      <div class="input-group-button">
+	<span class="input-number-increment">+</span>
+      </div>
+    </div>
+    <div class="input-group input-number-group">
+      <div class="input-group-button">
+	<span class="input-number-enter">enter</span>
+      </div>
+    </div>
+  </div>
+
 </div>
 
-<h6 class="text-center">Current Floor</h6>
-<div class="input-group input-number-group">
-  <div class="input-group-button">
-    <span class="input-number-decrement">-</span>
-  </div>
-  <input class="input-number" id="current_floor" type="number" value="1" min="1" max="10">
-  <div class="input-group-button">
-    <span class="input-number-increment">+</span>
-  </div>
-</div>
-<div class="input-group input-number-group">
-  <div class="input-group-button">
-    <span class="input-number-enter">enter</span>
-  </div>
-</div>
 
 
 
