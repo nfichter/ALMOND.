@@ -63,3 +63,7 @@ jackS -- 24:57
 - changed way we load the svg's into the site so they can be more easily interactive
   - now we use <object src="file.svg"> </object instead of
     <svg> <img src="file.svg"> </svg>
+asherL -- 24:59
+-tried to deal with mapping out rooms, but an issue w the svg file emerged
+-found a new foundation theme
+-began to integrate foundation theme (on local machine)
