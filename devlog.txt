@@ -57,3 +57,9 @@ jackS -- 13:50
 =============== 05/23/17 ===============
 jackS -- 20:35
 - added a basic site structure to the front end
+
+=============== 05/24/17 ===============
+jackS -- 24:57
+- changed way we load the svg's into the site so they can be more easily interactive
+  - now we use <object src="file.svg"> </object instead of
+    <svg> <img src="file.svg"> </svg>
