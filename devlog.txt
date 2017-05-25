@@ -45,8 +45,15 @@ noahF -- 20:15
 - made a cleaner version of the files we were given without all the room numbers and visual cues so we can add these on top in SVG
     - floors 7, 8, 9
 
-=============== 05/21/17 ===============
+=============== 05/22/17 ===============
 chloeD and asherL -- 00:35
 - researched a lot on image/svg conversion
 - learned about locating coordinates on svg files (NOT PIXELS!!)
 - discussed game plan for tomorrow's minipresentation and also for how to move forward with the project (what we should and shouldn't do using svg)
+
+jackS -- 13:50
+- tried to add an enter button for a user to enter a different floor rather than pressing + or - a bunch of times
+
+=============== 05/23/17 ===============
+jackS -- 20:35
+- added a basic site structure to the front end

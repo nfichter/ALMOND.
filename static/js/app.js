@@ -6,21 +6,23 @@ var map = document.getElementById("map");
 
 var i;
 for (i = 1; i <= 10; i++){
-    console.log("next svg");
-    var newSvg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-    newSvg.id = i;
-    newSvg.setAttribute('height', 400);
-    newSvg.setAttribute('width', 200);
-    if (i == 1)
-	newSvg.setAttribute('display', 'inline');
-    else
-	newSvg.setAttribute('display', 'none');
-    var text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-    text.setAttribute('x', 10 * i);
-    text.setAttribute('y', 37 * i);
-    text.innerHTML = "floor " + i;
-    newSvg.append( text );
-    map.append( newSvg );
+    if (i - 7) {
+	console.log("next svg");
+	var newSvg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+	newSvg.id = i;
+	newSvg.setAttribute('height', 400);
+	newSvg.setAttribute('width', 200);
+	if (i == 1)
+	    newSvg.setAttribute('display', 'inline');
+	else
+	    newSvg.setAttribute('display', 'none');
+	var text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+	text.setAttribute('x', 10 * i);
+	text.setAttribute('y', 37 * i);
+	text.innerHTML = "floor " + i;
+	newSvg.append( text );
+	map.append( newSvg );
+    }
 }
 
 
@@ -60,4 +62,5 @@ $('.input-number-enter').click(function() {
     
 });
 
-    
+$("[data-menu-underline-from-center] a").addClass("underline-from-center");
+
