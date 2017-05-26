@@ -7,6 +7,10 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
+@app.route("/map")
+def mappy():
+    return render_template("map.html")
+
 
 #run the app
 if __name__ == "__main__":
