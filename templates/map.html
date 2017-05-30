@@ -9,24 +9,28 @@
     <div class="large-12 columns">
       <div class="input-group input-number-group">
 	<div class="input-group-button">
-	  <span class="input-number-decrement">Go Down</span>
+	  <span class="input-number-decrement">Go<br>Down</span>
 	</div>
-	You are on floor: <input class="input-number" id="current_floor" type="number" value="7" min="1" max="10"> </input>
+	why nowork<input class="input-number" id="current_floor" type="number" value="7" min="1" max="10"> </input>
 	<div class="input-group-button">
-	  <span class="input-number-increment">Go Up</span>
+	  <span class="input-number-increment">Go<br>Up</span>
 	</div>
       </div>
+      <h3>Current Floor</h3>
     </div>  
   </div>
 </div>
 
 <div class="holy-grail-grid">
-  <div class="holy-grail-header">
-    <h3>Get Around Stuy!.net</h3>
-  </div>
-
   <div class="holy-grail-left">
-    <h3>Get Directions</h3>
+    <h3>Get directions</h3>
+    From room number: <input id="from_room" value="831"></input><br><br>
+    To room number: <input id="to_room" value="805"></input><br><br><br>
+    
+    <div id="get_directions">
+      <span class="button large" id="directions_button">Get Directions</span>
+    </div>
+  
   </div>
 
   <div class="holy-grail-middle">
@@ -47,9 +51,6 @@
       <!-- 	<image x="0" y="0" height="100%" width="100%"  xlink:href="static/img/8rc.svg" /> -->
       <!-- </svg> -->
     </div>
-
-    <h6 class="text-center">Current Floor</h6>
-    
 
   </div>
 </div>

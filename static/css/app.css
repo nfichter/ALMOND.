@@ -156,7 +156,7 @@ svg {
 .input-number-group .input-number-decrement,
 .input-number-group .input-number-increment {
     border: 1px solid #cacaca;
-    height: 40px;
+    height: 5rem;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -167,7 +167,7 @@ svg {
 .input-number-group .input-number-decrement,
 .input-number-group .input-number-increment {
     display: inline-block;
-    width: 40px;
+    width: 6rem;
     background: #e6e6e6;
     color: #0a0a0a;
     text-align: center;

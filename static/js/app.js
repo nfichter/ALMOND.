@@ -41,3 +41,11 @@ $('.input-number-enter').click(function() {
 
 $("[data-menu-underline-from-center] a").addClass("underline-from-center");
 
+document.getElementById("current_floor").addEventListener("click", function(event){
+    event.preventDefault();
+    event.stopPropagation();
+});
+
+// DIRECTIONS STUFF
+var directions_button = document.getElementById("directions_button");
+console.log(directions_button);
