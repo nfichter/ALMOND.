@@ -1,28 +1,25 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
-    <link rel="stylesheet" href="/static/css/foundation.css">
-    <link rel="stylesheet" href="/static/css/app.css">
-    <script type="text/javascript" src="/static/js/vendor/jquery.js"></script>
-    <script type="text/javascript" src="/static/js/vendor/foundation.js"></script>
-    {% block head %}
-    {% endblock %}
-  </head>
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %} {% endblock %}</title>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="foundation-icons/foundation-icons.css">
+    <link rel="stylesheet" href="/static/css/foundation.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/app.css">
+</head>
+<body>
+  
+  {% block body %}
+  {% endblock %}
+  <script src="/static/js/jquery.js"></script>
+  <script src="/static/js/foundation.min.js"></script>
+  <script src="/static/js/app.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
 
-  <body>
-    <nav class="hover-underline-menu" data-menu-underline-from-center>
-      <ul class="menu align-center">
-	<li><a href="/">Home</a></li>
-	<li><a href="#">About us</a></li>
-      </ul>
-    </nav>
-    {% block body %}
-    {% endblock %}
-
-    <script src="/static/js/app.js"></script>
-  </body>
+</body>
 </html>

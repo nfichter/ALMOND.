@@ -1,55 +1,28 @@
 {% extends "base.html" %}
 
-{% block head %}
-<title>Home</title>
-{% endblock %}
-
+{% block title %}ALMOND.{% endblock %}
 
 {% block body %}
-
-<div class="holy-grail-grid">
-  <div class="holy-grail-header">
-    <h3>Get Around Stuy!.net</h3>
-  </div>
-
-  <div class="holy-grail-left">
-    <h3>Get Directions</h3>
-  </div>
-
-  <div class="holy-grail-middle">
-    <h3>Map</h3>
-    <div id="map">
-      <object data="static/img/1rc.svg" type="image/svg+xml" id="1" width="0" height="1000px" > </object>
-      <object data="static/img/2rc.svg" type="image/svg+xml" id="2" width="0px" height="1000px" > </object>
-      <object data="static/img/3rc.svg" type="image/svg+xml" id="3" width="0px" height="1000px" > </object>
-      <object data="static/img/4rc.svg" type="image/svg+xml" id="4" width="0px" height="1000px" > </object>
-      <object data="static/img/5rc.svg" type="image/svg+xml" id="5" width="0px" height="1000px" > </object>
-      <object data="static/img/6rc.svg" type="image/svg+xml" id="6" width="0px" height="1000px" > </object>
-      <object data="static/img/7rc.svg" type="image/svg+xml" id="7" width="500px" height="1000px" > </object>
-      <object data="static/img/8rc.svg" type="image/svg+xml" id="8" width="0px" height="1000px" > </object>
-      <object data="static/img/9rc.svg" type="image/svg+xml" id="9" width="0px" height="1000px" > </object>
-      <object data="static/img/10rc.svg" type="image/svg+xml" id="10" width="0px" height="1000px" > </object>
-
-      <!-- <svg id="8" display="none" width="300" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" > -->
-      <!-- 	<image x="0" y="0" height="100%" width="100%"  xlink:href="static/img/8rc.svg" /> -->
-      <!-- </svg> -->
-    </div>
-
-    <h6 class="text-center">Current Floor</h6>
-    <div class="input-group input-number-group">
-      <div class="input-group-button">
-	<span class="input-number-decrement">-</span>
-      </div>
-      <input class="input-number" id="current_floor" type="number" value="7" min="1" max="10"> </input>
-      <div class="input-group-button">
-	<span class="input-number-increment">+</span>
+<div class="intro">
+  <div class="row">
+    <div class="large-12 columns">
+      <div style="background-color:rgba(0,0,0,0.7); min-height:100%; width:100%;">
+        <div class="display-table" style="height:600px; width:100%;">
+          <div class="va-align">
+            <h2>Welcome to Stuy! Where would you like to go?</h2>
+	    <br>
+	    <div>
+	      I'm in room: 
+	      <br>
+	      I'm going to room:
+	    </div>
+	    <div> or... </div>
+	    <br><br>
+	    <a class="secondary hollow button" href="/map">Go to the map.</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-
 </div>
-
-
-
-
 {% endblock %}
