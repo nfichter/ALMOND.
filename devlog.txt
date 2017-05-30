@@ -68,6 +68,17 @@ asherL -- 24:59
 -found a new foundation theme
 -began to integrate foundation theme (on local machine)
 
+=============== 05/25/17 ===============
+ALMOND. -- 14:05
+- second meeting with Ms. Genkina 
+    - we need to talk to Moran about floor files
+    - next week:
+        - hoverover
+        - click function
+        - all the floors done (drawings and coordinates)
+STAGE 1: maps functioning
+STAGE 2: directions
+
 =============== 05/26/17 ===============
 jackS -- 14:03
 - started to implement the new theme that asher found
