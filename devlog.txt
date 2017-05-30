@@ -83,3 +83,8 @@ STAGE 2: directions
 jackS -- 14:03
 - started to implement the new theme that asher found
 - added a landing page that is not the map, so it looks cooler
+
+=============== 05/30/17 ===============
+jackS -- 14:02
+- starting to build front end for requesting directions
+- made front end look nicer
