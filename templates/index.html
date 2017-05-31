@@ -13,16 +13,24 @@
 	    <br>
 	    <div id="input_directions_home">
 	      <h3>Get directions</h3>
-	      From room number: <input id="from_room" value="831"></input><br><br>
-	      To room number: <input id="to_room" value="805"></input><br><br><br>
+	      <table class="prompt">
+		<tr>
+		  <td>From room number:</td>
+		  <td><input id="from_room" value="831"></input></td>
+		</tr>
+		<tr>
+		  <td>To room number:</td>
+		  <td><input id="to_room" value="805"></input></td>
+		</tr>
+	      </table>
 	      
 	      <div id="get_directions">
-		<span class="button large" id="directions_button">Get Directions</span>
+		<span class="button large hollow" id="directions_button">Get Directions</span>
 	      </div>
 	    </div>
   	    <br><br>
 	    or...
-	    <a class="secondary hollow button" href="/map">Go to the map.</a>
+	    <a class="large button alert" href="/map">Go to the map.</a>
           </div>
         </div>
       </div>

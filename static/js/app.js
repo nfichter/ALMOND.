@@ -11,7 +11,7 @@ $('.input-number-increment').click(function() {
     if (val < 10) {
 	$input.val(val + 1);
 	document.getElementById(val).setAttribute('width', '0');
-	document.getElementById(val + 1).setAttribute('width', '500');
+	document.getElementById(val + 1).setAttribute('width', '750');
     }
 });
 
@@ -22,7 +22,7 @@ $('.input-number-decrement').click(function() {
     if (val > 1) {
 	$input.val(val - 1);
 	document.getElementById(val).setAttribute('width', '0');
-	document.getElementById(val - 1).setAttribute('width', '500');
+	document.getElementById(val - 1).setAttribute('width', '750');
     }
     
 });

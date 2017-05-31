@@ -26,11 +26,18 @@
 
     <div id="input_directions">
       <h3>Get directions</h3>
-      From room number: <input id="from_room" value="831"></input><br><br>
-      To room number: <input id="to_room" value="805"></input><br><br><br>
-      
+      <table class="prompt">
+	<tr>
+	  <td>From room number:</td>
+	  <td><input id="from_room" value="831"></input></td>
+	</tr>
+	<tr>
+	  <td>To room number:</td>
+	  <td><input id="to_room" value="805"></input></td>
+	</tr>
+      </table>
       <div id="get_directions">
-	<span class="button large" id="directions_button">Get Directions</span>
+	<span class="button large alert hollow" id="directions_button">Get Directions</span>
       </div>
     </div>
     <div id="show_directions" style="display:none">
@@ -50,7 +57,7 @@
       <object data="static/img/4rc.svg" type="image/svg+xml" id="4" width="0px" height="1000px" > </object>
       <object data="static/img/5rc.svg" type="image/svg+xml" id="5" width="0px" height="1000px" > </object>
       <object data="static/img/6rc.svg" type="image/svg+xml" id="6" width="0px" height="1000px" > </object>
-      <object data="static/img/7rc.svg" type="image/svg+xml" id="7" width="500px" height="1000px" > </object>
+      <object data="static/img/7rc.svg" type="image/svg+xml" id="7" width="750px" height="1000px" > </object>
       <object data="static/img/8rc.svg" type="image/svg+xml" id="8" width="0px" height="1000px" > </object>
       <object data="static/img/9rc.svg" type="image/svg+xml" id="9" width="0px" height="1000px" > </object>
       <object data="static/img/10rc.svg" type="image/svg+xml" id="10" width="0px" height="1000px" > </object>
