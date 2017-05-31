@@ -6,6 +6,21 @@ svg {
     border: 1px solid black;
 }
 
+.prompt {
+    color:black;
+    justify-content: center;
+    display: flex;
+    text-align: left;
+}
+
+#from_room {
+    width: 5rem;
+}
+
+#to_room {
+    width: 5rem;
+}
+
 #map {
     display: -webkit-flex;
     display: -ms-flexbox;
