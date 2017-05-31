@@ -88,3 +88,6 @@ jackS -- 14:03
 jackS -- 14:02
 - starting to build front end for requesting directions
 - made front end look nicer
+
+jackS -- 22:14
+- added functionality when user clicks the get directions button
