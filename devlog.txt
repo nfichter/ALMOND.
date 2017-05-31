@@ -91,3 +91,7 @@ jackS -- 14:02
 
 jackS -- 22:14
 - added functionality when user clicks the get directions button
+
+=============== 05/30/17 ===============
+jackS -- 14:01
+- more front end stuff
