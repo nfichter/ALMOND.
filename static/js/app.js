@@ -48,4 +48,17 @@ document.getElementById("current_floor").addEventListener("click", function(even
 
 // DIRECTIONS STUFF
 var directions_button = document.getElementById("directions_button");
-console.log(directions_button);
+var input_directions = document.getElementById("input_directions");
+var show_directions = document.getElementById("show_directions");
+//console.log(input_directions)
+
+directions_button.addEventListener("click", function(e){
+    input_directions.setAttribute('style', 'display:none');
+    get_directions();
+    show_directions.setAttribute('style', 'display:block');
+    
+});
+
+var get_directions = function() {
+    console.log("we need to get some directions");
+};

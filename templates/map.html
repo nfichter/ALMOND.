@@ -23,16 +23,24 @@
 
 <div class="holy-grail-grid">
   <div class="holy-grail-left">
-    <h3>Get directions</h3>
-    From room number: <input id="from_room" value="831"></input><br><br>
-    To room number: <input id="to_room" value="805"></input><br><br><br>
-    
-    <div id="get_directions">
-      <span class="button large" id="directions_button">Get Directions</span>
-    </div>
-  
-  </div>
 
+    <div id="input_directions">
+      <h3>Get directions</h3>
+      From room number: <input id="from_room" value="831"></input><br><br>
+      To room number: <input id="to_room" value="805"></input><br><br><br>
+      
+      <div id="get_directions">
+	<span class="button large" id="directions_button">Get Directions</span>
+      </div>
+    </div>
+    <div id="show_directions" style="display:none">
+      <ol>
+	<li> do this</li>
+	<li> then this</li>
+      </ol>
+    </div>
+  </div>
+  
   <div class="holy-grail-middle">
     <h3>Map</h3>
     <div id="map">
