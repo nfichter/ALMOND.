@@ -68,10 +68,10 @@ svg {
 .holy-grail-grid {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 3fr 1fr;
-    grid-template-columns: 1fr 3fr 1fr;
-    -ms-grid-rows: 1fr 8fr 1fr;
-    grid-template-rows: 1fr 8fr 1fr;
+    -ms-grid-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2fr;
+    -ms-grid-rows: 1fr 8fr;
+    grid-template-rows: 1fr 8fr;
     grid-gap: 20px;
     height: 100vh;
 }

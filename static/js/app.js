@@ -50,12 +50,20 @@ document.getElementById("current_floor").addEventListener("click", function(even
 var directions_button = document.getElementById("directions_button");
 var input_directions = document.getElementById("input_directions");
 var show_directions = document.getElementById("show_directions");
+var more_directions_button = document.getElementById("more_directions_button");
 //console.log(input_directions)
 
 directions_button.addEventListener("click", function(e){
     input_directions.setAttribute('style', 'display:none');
     get_directions();
     show_directions.setAttribute('style', 'display:block');
+    
+});
+
+more_directions_button.addEventListener("click", function(e){
+    input_directions.setAttribute('style', 'display:block');
+
+    show_directions.setAttribute('style', 'display:none');
     
 });
 
