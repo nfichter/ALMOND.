@@ -84,21 +84,39 @@ jackS -- 14:03
 - started to implement the new theme that asher found
 - added a landing page that is not the map, so it looks cooler
 
+chloeD -- 14:05
+- talked to Moran about maps
+
 =============== 05/30/17 ===============
 jackS -- 14:02
 - starting to build front end for requesting directions
 - made front end look nicer
 
+chloeD -- 20:00
+- worked on hover/click functions, struggled a bit and refreshed on JS functions
+- did not push work because it doesn't affect anyone
+
 jackS -- 22:14
 - added functionality when user clicks the get directions button
 
-=============== 05/30/17 ===============
+=============== 05/31/17 ===============
 jackS -- 14:01
 - more front end stuff
 
+chloeD -- 14:05
+- met with Moran and sent him an email regarding the maps/student security stuff
+
 =============== 06/01/17 ===============
+chloeD -- 13:45
+- got the maps from Moran!! WOOOO!
+- worked on hover; confused 
+
 jackS -- 14:02
 - other stuff
 
 asherL -- 14:04
 -dealing w js file to create line directions
+
+=============== 06/01/17 ===============
+chloeD -- 14:05
+- worked on hover; less confused 
