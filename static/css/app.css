@@ -1,4 +1,4 @@
-body {
+4body {
     padding: 20px;
 }
 
@@ -68,10 +68,10 @@ svg {
 .holy-grail-grid {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 2fr;
-    grid-template-columns: 1fr 2fr;
-    -ms-grid-rows: 1fr 8fr;
-    grid-template-rows: 1fr 8fr;
+    -ms-grid-columns: 2fr 4fr 1.5fr;
+    grid-template-columns: 2fr 4fr 1.5fr;
+    -ms-grid-rows: 1fr 8fr 1fr;
+    grid-template-rows: 1fr 8fr 1fr;
     grid-gap: 20px;
     height: 100vh;
 }
