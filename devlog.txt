@@ -120,7 +120,15 @@ asherL -- 14:04
 chloeD -- 14:05
 - worked on hover; less confused 
 
+=============== 06/03/17 ===============
+asherL -- 16:02
+-creating nav fxn for intrafloor travel
+-established way to deal w coords
+
 =============== 06/04/17 ===============
 jackS -- 23:59
 - added tab for user to orient themselves
 - fixed problem of buttons overlapping
+
+asherL -- 23:59
+-created center lines, put in coords
