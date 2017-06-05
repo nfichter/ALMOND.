@@ -1,16 +1,102 @@
-body {
-    padding: 20px;
+.marketing-site-footer {
+  background: #2c3840;
+  color: #8aa0ae;
+  padding: 2rem 0 0;
 }
 
-svg {
-    border: 1px solid black;
+.marketing-site-footer .marketing-site-footer-menu-social a {
+  color: #fefefe;
 }
+
+.marketing-site-footer .column-block {
+  margin-bottom: 30px;
+}
+
+.marketing-site-footer > .row {
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .marketing-site-footer .columns {
+    margin-bottom: 2rem;
+  }
+}
+
+.marketing-site-footer-name {
+  color: #fefefe;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.marketing-site-footer-title {
+  color: #fefefe;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.marketing-site-footer-block {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.marketing-site-footer-block .fa {
+  font-size: 2rem;
+  color: #020304;
+}
+
+.marketing-site-footer-block p {
+  margin-left: 1rem;
+  line-height: 1.125rem;
+}
+
+.marketing-site-footer-bottom {
+  background: #020304;
+  padding: 1rem 0;
+}
+
+.marketing-site-footer-bottom p,
+.marketing-site-footer-bottom .menu {
+  margin-bottom: 0;
+}
+
+.marketing-site-footer-bottom .marketing-site-footer-bottom-links {
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.marketing-site-footer-bottom .marketing-site-footer-bottom-links a {
+  color: #8aa0ae;
+}
+
+@media screen and (max-width: 63.9375em) {
+  .marketing-site-footer-bottom .marketing-site-footer-bottom-links {
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 63.9375em) {
+  .marketing-site-footer-bottom {
+    text-align: center;
+  }
+}
+
 
 .prompt {
     color:black;
     justify-content: center;
     display: flex;
     text-align: left;
+}
+
+#current_floor {
+    width: 5rem;
+    text-align: center;
+    display: inline;
 }
 
 #from_room {
@@ -68,10 +154,10 @@ svg {
 .holy-grail-grid {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 2fr;
-    grid-template-columns: 1fr 2fr;
-    -ms-grid-rows: 1fr 8fr;
-    grid-template-rows: 1fr 8fr;
+    -ms-grid-columns: 2fr 4fr 1.5fr;
+    grid-template-columns: 2fr 4fr 1.5fr;
+    -ms-grid-rows: 1fr 8fr 1fr;
+    grid-template-rows: 1fr 8fr 1fr;
     grid-gap: 20px;
     height: 100vh;
 }

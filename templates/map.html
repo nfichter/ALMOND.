@@ -7,14 +7,10 @@
 <div class="info">
   <div class="row">
     <div class="large-12 columns">
-      <div class="input-group input-number-group">
-	<div class="input-group-button">
-	  <span class="input-number-decrement">Go<br>Down</span>
-	</div>
-	why nowork<input class="input-number" id="current_floor" type="number" value="7" min="1" max="10"> </input>
-	<div class="input-group-button">
-	  <span class="input-number-increment">Go<br>Up</span>
-	</div>
+      <div id="new_floor">
+	<span class="button alert" id="decrement">Go Down</span>
+	<span id="current_floor" class="centerme">7</span>
+	<span class="button success"  id="increment">Go Up</span>
       </div>
       <h3>Current Floor</h3>
     </div>  
@@ -66,14 +62,72 @@
       <object data="static/img/8rc.svg" type="image/svg+xml" id="8" width="0px" height="1000px" > </object>
       <object data="static/img/9rc.svg" type="image/svg+xml" id="9" width="0px" height="1000px" > </object>
       <object data="static/img/10rc.svg" type="image/svg+xml" id="10" width="0px" height="1000px" > </object>
-
-      <!-- <svg id="8" display="none" width="300" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" > -->
-      <!-- 	<image x="0" y="0" height="100%" width="100%"  xlink:href="static/img/8rc.svg" /> -->
-      <!-- </svg> -->
     </div>
+    
+  </div>
 
+  <div class="holy-grail-right">
+    <h3>How to Orient Yourself</h3>
+    <ol>
+      <li>In a hallway, stand so that an odd number room is on your left, and an even number room is on your right.</li>
+      <li>Now, <strong>forward</strong> from where you are standing is <strong>up</strong> on the map.</li>
+      <li>Conversly, <strong>backward</strong> is now <strong>down</strong> on the map.</li>
+    </ol>
   </div>
 </div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<footer class="marketing-site-footer">
+  <div class="row medium-unstack">
+    <div class="medium-4 columns">
+      <h4 class="marketing-site-footer-name">Team ALMOND.</h4>
+      <ul>
+	<li>Chloe Delfau</li>
+	<li>Noah Fisher</li>
+	<li>Asher Laderdaysaints</li>
+	<li>Jack Schluger</li>
+      </ul>
+    </div>
+    <div class="medium-4 columns">
+      <h4 class="marketing-site-footer-title">Contact Info</h4>
+      <div class="marketing-site-footer-block">
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+        <p>345 Chambers Street<br>New York City, NY 10282</p>
+      </div>
+      <div class="marketing-site-footer-block">
+        <i class="fa fa-phone" aria-hidden="true"></i>
+        <p>phone number</p>
+      </div>
+      <div class="marketing-site-footer-block">
+        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        <p>yetirules@fakeemail.com</p>
+      </div>
+    </div>
+    <div class="medium-4 columns">
+      <h4 class="marketing-site-footer-title">Instagram</h4>
+      <div class="row small-up-3">
+        <div class="column column-block">
+          <img src="http://placehold.it/75" alt="" />
+        </div>
+        <div class="column column-block">
+          <img src="http://placehold.it/75" alt="" />
+        </div>
+        <div class="column column-block">
+          <img src="http://placehold.it/75" alt="" />
+        </div>
+        <div class="column column-block">
+          <img src="http://placehold.it/75" alt="" />
+        </div>
+        <div class="column column-block">
+          <img src="http://placehold.it/75" alt="" />
+        </div>
+        <div class="column column-block">
+          <img src="http://placehold.it/75" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
 
 
 {% endblock %}
