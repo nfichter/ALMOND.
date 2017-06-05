@@ -132,3 +132,7 @@ jackS -- 23:59
 
 asherL -- 23:59
 -created center lines, put in coords
+
+=============== 06/05/17 ===============
+jackS -- 14:03
+- added a footer
