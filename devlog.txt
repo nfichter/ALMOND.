@@ -99,12 +99,18 @@ chloeD -- 20:00
 jackS -- 22:14
 - added functionality when user clicks the get directions button
 
+noahF -- 14:00
+- completed 6th floor
+
 =============== 05/31/17 ===============
 jackS -- 14:01
 - more front end stuff
 
 chloeD -- 14:05
 - met with Moran and sent him an email regarding the maps/student security stuff
+
+noahF -- 14:00
+- completed 4th floor
 
 =============== 06/01/17 ===============
 chloeD -- 13:45
@@ -119,6 +125,9 @@ asherL -- 14:04
 
 chloeD -- 14:05
 - worked on hover; less confused 
+
+noahF -- 14:00
+- completed 5th, 9th floors
 
 =============== 06/03/17 ===============
 asherL -- 16:02
@@ -136,3 +145,9 @@ asherL -- 23:59
 =============== 06/05/17 ===============
 jackS -- 14:03
 - added a footer
+
+noahF -- 14:00
+- completed 10th floor
+
+noahF -- 18:30
+- completed 3rd floor, working on coordinates for all floors
