@@ -117,6 +117,10 @@ jackS -- 14:02
 asherL -- 14:04
 -dealing w js file to create line directions
 
-=============== 06/01/17 ===============
 chloeD -- 14:05
 - worked on hover; less confused 
+
+=============== 06/04/17 ===============
+jackS -- 23:59
+- added tab for user to orient themselves
+- fixed problem of buttons overlapping
