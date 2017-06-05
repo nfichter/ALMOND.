@@ -1,16 +1,14 @@
-4body {
-    padding: 20px;
-}
-
-svg {
-    border: 1px solid black;
-}
-
 .prompt {
     color:black;
     justify-content: center;
     display: flex;
     text-align: left;
+}
+
+#current_floor {
+    width: 5rem;
+    text-align: center;
+    display: inline;
 }
 
 #from_room {

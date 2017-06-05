@@ -4,27 +4,32 @@ console.log("hello world");
 //this div will contain a list of 10 svg's, each of which will be a map of one floor
 var map = document.getElementById("map");
 
+var increment=document.getElementById("increment");
+var decrement=document.getElementById("decrement");
+var current_floor=document.getElementById("current_floor");
+var current_floor_value=parseInt(current_floor.innerHTML, 10);
+console.log(current_floor_value);
+
 // intrement the floor counter
-$('.input-number-increment').click(function() {
-    var $input = $(this).parents('.input-number-group').find('.input-number');
-    var val = parseInt($input.val(), 10);
-    if (val < 10) {
-	$input.val(val + 1);
-	document.getElementById(val).setAttribute('width', '0');
-	document.getElementById(val + 1).setAttribute('width', '750');
+increment.addEventListener("click", function(e){
+    if (current_floor_value < 10) {
+	document.getElementById(current_floor_value).setAttribute('width', '0');
+	current_floor_value+=1;
+	current_floor.innerHTML=current_floor_value;
+	document.getElementById(current_floor_value).setAttribute('width', '750');
+	
     }
 });
 
 //decrement the floor counter
-$('.input-number-decrement').click(function() {
-    var $input = $(this).parents('.input-number-group').find('.input-number');
-    var val = parseInt($input.val(), 10);
-    if (val > 1) {
-	$input.val(val - 1);
-	document.getElementById(val).setAttribute('width', '0');
-	document.getElementById(val - 1).setAttribute('width', '750');
+decrement.addEventListener("click", function(e){
+    if (current_floor_value > 1) {
+	document.getElementById(current_floor_value).setAttribute('width', '0');
+	current_floor_value-=1;
+	current_floor.innerHTML=current_floor_value;
+	document.getElementById(current_floor_value).setAttribute('width', '750');
+	
     }
-    
 });
 
 //enter the floor counter
