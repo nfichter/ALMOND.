@@ -29,9 +29,8 @@ window.onload = function() {
 
 	svgElement.onmousemove = function(event) {
 	  floordata = getFloorData(current_floor_value);
-	  var offset = svgElement.offset();
 	  for (i = 0; i < floordata.length; i++) {
-		if (mouseInArea(event.pageX-offset.left, event.pageY-offset.top, floordata[i][1], floordata[i][2], floordata[i][3], floordata[i][4])) {
+		if (mouseInArea(event.offsetX, event.offsetY, floordata[i][1], floordata[i][2], floordata[i][3], floordata[i][4])) {
 		  currentbox = floordata[i][0];
 		  console.log(currentbox);
 		  createSvgBox(floordata[i][1], floordata[i][2], floordata[i][3], floordata[i][4]);
