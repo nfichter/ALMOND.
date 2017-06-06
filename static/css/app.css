@@ -1,3 +1,15 @@
+/* .info { */
+/*     position:fixed; */
+/*     width: 100%; */
+    
+/* } */
+
+#go_home{
+    float:left;
+    padding:0px;
+    margin:0px;
+}
+
 .marketing-site-footer {
   background: #2c3840;
   color: #8aa0ae;

@@ -5,17 +5,18 @@
 
 {% block body %}
 <div class="info">
-  <div class="row">
-    <div class="large-12 columns">
-      <div id="new_floor">
-	<span class="button alert" id="decrement">Go Down</span>
-	<span id="current_floor" class="centerme">7</span>
-	<span class="button success"  id="increment">Go Up</span>
-      </div>
+  <!-- <div class="row"> -->
+    <div id="go_home">
+      <a href="/" class="button hollow">Home</a>
+    </div>
+    <div id="new_floor">
+      <span class="button alert" id="decrement">Go Down</span>
+      <span id="current_floor" class="centerme">7</span>
+      <span class="button success"  id="increment">Go Up</span>
       <h3>Current Floor</h3>
-    </div>  
+    </div>
   </div>
-</div>
+<!-- </div> -->
 
 <div class="holy-grail-grid">
   <div class="holy-grail-left">
@@ -74,60 +75,26 @@
       <li>Conversly, <strong>backward</strong> is now <strong>down</strong> on the map.</li>
     </ol>
   </div>
-</div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<footer class="marketing-site-footer">
-  <div class="row medium-unstack">
-    <div class="medium-4 columns">
-      <h4 class="marketing-site-footer-name">Team ALMOND.</h4>
-      <ul>
-	<li>Chloe Delfau</li>
-	<li>Noah Fisher</li>
-	<li>Asher Laderdaysaints</li>
-	<li>Jack Schluger</li>
+  <div class="holy-grail-footer">
+    <div class="row medium-unstack">
+      <div class="medium-4 columns">
+	<h4>Powered by Team ALMOND.</h4>
+	<ul>
+  	  <li>Chloe Delfau</li>
+  	  <li>Noah Fisher</li>
+  	  <li>Asher Laderdaysaints</li>
+  	  <li>Jack Schluger</li>
       </ul>
-    </div>
-    <div class="medium-4 columns">
-      <h4 class="marketing-site-footer-title">Contact Info</h4>
-      <div class="marketing-site-footer-block">
-        <i class="fa fa-map-marker" aria-hidden="true"></i>
-        <p>345 Chambers Street<br>New York City, NY 10282</p>
       </div>
-      <div class="marketing-site-footer-block">
-        <i class="fa fa-phone" aria-hidden="true"></i>
-        <p>phone number</p>
-      </div>
-      <div class="marketing-site-footer-block">
-        <i class="fa fa-envelope-o" aria-hidden="true"></i>
-        <p>yetirules@fakeemail.com</p>
-      </div>
-    </div>
-    <div class="medium-4 columns">
-      <h4 class="marketing-site-footer-title">Instagram</h4>
-      <div class="row small-up-3">
-        <div class="column column-block">
-          <img src="http://placehold.it/75" alt="" />
-        </div>
-        <div class="column column-block">
-          <img src="http://placehold.it/75" alt="" />
-        </div>
-        <div class="column column-block">
-          <img src="http://placehold.it/75" alt="" />
-        </div>
-        <div class="column column-block">
-          <img src="http://placehold.it/75" alt="" />
-        </div>
-        <div class="column column-block">
-          <img src="http://placehold.it/75" alt="" />
-        </div>
-        <div class="column column-block">
-          <img src="http://placehold.it/75" alt="" />
-        </div>
+      <div class="medium-4 columns">
+	<h4>Contact Info</h4>
+	<div class="marketing-site-footer-block">
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          <p>345 Chambers Street<br>New York City, NY 10282</p>
+	</div>
       </div>
     </div>
   </div>
-</footer>
-
-
+</div>
 
 {% endblock %}
