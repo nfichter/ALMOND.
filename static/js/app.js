@@ -1,5 +1,4 @@
 $(document).foundation()
-console.log("hello world");
 
 //this div will contain a list of 10 svg's, each of which will be a map of one floor
 var map = document.getElementById("map");
@@ -8,7 +7,6 @@ var increment=document.getElementById("increment");
 var decrement=document.getElementById("decrement");
 var current_floor=document.getElementById("current_floor");
 var current_floor_value=parseInt(current_floor.innerHTML, 10);
-console.log(current_floor_value);
 
 // intrement the floor counter
 increment.addEventListener("click", function(e){

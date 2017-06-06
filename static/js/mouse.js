@@ -49,3 +49,16 @@ window.onload = function() {
 	  return (mouseX > x) && (mouseX < x+w) && (mouseY > y) && (mouseY < y+h);
 	}
 }
+
+var increment=document.getElementById("increment");
+var decrement=document.getElementById("decrement");
+
+// intrement the floor counter
+increment.addEventListener("click", function(e){
+    window.onload()
+});
+
+//decrement the floor counter
+decrement.addEventListener("click", function(e){
+    window.onload();
+});
