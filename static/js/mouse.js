@@ -12,7 +12,7 @@ var floor10 = [['1039', 155, 125, 200, 215, 250, 340], ['1033', 155, 340, 50, 47
 
 var flrlist = [floor0, floor1, floor2, floor3, floor4, floor5, floor6, floor7, floor8, floor9, floor10];
 
-f = document.getElementById("current_floor"); 
+f = document.getElementById("current_floor");
 flr = f.value; //gives string of the floor number (aka value)
 intflr = flr * 1; //convert the string to a number
 
@@ -21,17 +21,18 @@ function getFloorData(flrnbr) {
 }
 
 var currentbox;
-document.getElementById("hoverbox").onclick = function() {
+var svgElement = document.getElementById(flr).contentDocument.querySelectorAll('svg')[0];
+svgElement.getElementById("hoverbox").onclick = function() {
   console.log(currentbox);
 }
 
 $(document).mousemove(function(event) {
   floordata = getFloorData(f);
-  var svgElement = document.getElementById(flr);
   var offset = svgElement.offset();
   for (i = 0; i < floordata.length; i++) {
     if (mouseInArea(event.pageX-offset.left, event.pageY-offset.top, floordata[i][1], floordata[i][2], floordata[i][3], floordata[i][4])) {
       currentbox = floordata[i][0];
+      console.log(currentbox);
       createSvgBox(floordata[i][1], floordata[i][2], floordata[i][3], floordata[i][4]);
     }
   }
