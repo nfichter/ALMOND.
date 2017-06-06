@@ -72,7 +72,13 @@ more_directions_button.addEventListener("click", function(e){
 });
 
 var get_directions = function() {
-    var cords = oneflr(from_room.value, to_room.value);
+	var cords;
+	if (from_room.value[0] == to_room.value[0]) {
+		cords = oneflr(from_room.value, to_room.value);
+	}
+	else {
+		cords = multiflr(from_room.value, to_room.value);
+	}
     console.log("going from here to here: ", cords);
     var svG = document.getElementById(from_room.value[0]).contentDocument.querySelectorAll('svg')[0];
 
