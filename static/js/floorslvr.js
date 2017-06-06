@@ -34,9 +34,8 @@ floors = {
 	 '2ESC2' : [315, 460, 40, 40],
 	 '2M' : [295, 340, 60, 20, 295, 370],
 	 '2W' : [395, 360, 60, 20, 295, 350],
-	 '2THE' : [385, 450, 115, 120, 445, 570]}
-
-    4 : {"439" : [155, 125, 80, 50, 235, 168],
+	 '2THE' : [385, 450, 115, 120, 445, 570]},
+    4: {"439" : [155, 125, 80, 50, 235, 168],
 	  "437" : [155, 175, 80, 50, 235, 200],
 	  "435" : [155, 225, 80, 50, 235, 250],
 	  "433" : [155, 275, 80, 50, 235, 300],
@@ -91,7 +90,7 @@ floors = {
 	  '5ESC' : [315, 470, 40, 100, 335, 470],
 	  '5CAF1' : [155, 125, 355, 180, 245, 305],
 	  '5CAF2' : [295, 305, 90, 135, 245, 305],
-	  'CL' : [255, 305, 255, 795]}
+	  'CL' : [255, 305, 255, 795]},
 
 
     6 : {'639' : [155, 125, 80, 50, 235, 150],
@@ -157,7 +156,6 @@ floors = {
 var oneflr = function(strt, end) {
     //reading in proper floor 
     flr = floors[strt[0]];
-    console.log(strt[0])
     lns = []; //creating list that will have coords for line directons
     //making 1st coord
     lns[lns.length] = [flr[strt][4], flr[strt][5]];
@@ -197,19 +195,19 @@ var multiflr = function(strt, end) {
     ff = parseInt(end[0]);
     flr = floors[strt[0]];
     retarr = [];
-    if (Math.abs(flr[strt][5]-flr[fs+"WS"][5]) < Math.abs(flr[strt][5]-flr[fs+"ES"][5])){
-	if (Math.abs(flr[strt][5]-flr[fs+"WS"][5]) < Math.abs(flr[strt][5]-flr[fs+"EL"][5])){
-	    retarr = retarr + oneflr(strt, (fs+"WS")) + oneflr((ff+"WS"), end);
-	}
-	if (Math.abs(flr[strt][5]-flr[fs+"WS"][5]) > Math.abs(flr[strt][5]-flr[fs+"EL"][5])){
-	    retarr = retarr + oneflr(strt, (fs+"EL")) + oneflr((ff+"EL"), end);
-	}
+    if (Math.abs(flr[strt[5]]-flr[(fs+"WS")[5]]) < Math.abs(flr[strt[5]]-flr[(fs+"ES")[5]])){
+		if (Math.abs(flr[strt[5]]-flr[(fs+"WS")[5]]) < Math.abs(flr[strt][5]-flr[fs+"EL"][5])){
+			retarr = retarr + oneflr(strt, (fs+"WS")) + oneflr((ff+"WS"), end);
+		}
+		if (Math.abs(flr[strt][5]-flr[fs+"WS"][5]) > Math.abs(flr[strt][5]-flr[fs+"EL"][5])){
+			retarr = retarr + oneflr(strt, (fs+"EL")) + oneflr((ff+"EL"), end);
+		}
     }
     else{
-	retarr = retarr + oneflr(strt, (fs+"ES")) + oneflr((ff+"ES"), end);
+		retarr = retarr + oneflr(strt, (fs+"ES")) + oneflr((ff+"ES"), end);
     }
     return retarr;
-}
+};
 
 
 //console.log(oneflr("439", "408"));
