@@ -113,8 +113,8 @@ var oneflr = function(strt, end) {
     }
     
     else {
-	lns[lns.length] = [flr[AL][0] , flr[strt][5]];
-	if ( abs(flr[end][5] - flr["AL"][1]) < abs(flr[end][5] - flr["AL"][3])){
+	lns[lns.length] = [flr["AL"][0] , flr[strt][5]];
+	if ( Math.abs(flr[end][5] - flr["AL"][1]) < Math.abs(flr[end][5] - flr["AL"][3])){
 	    lns[lns.length] = [flr["AL"][0] , flr["AL"][1]];
 	    lns[lns.length] = [flr["CL"][0] , flr["AL"][1]];
 	}
