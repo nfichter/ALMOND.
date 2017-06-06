@@ -1,4 +1,4 @@
-<svg width="750.0000000000001" height="1000" xmlns="http://www.w3.org/2000/svg">
+<svg class="noselect" width="750.0000000000001" height="1000" xmlns="http://www.w3.org/2000/svg">
  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
 
  <g>
@@ -111,5 +111,6 @@
   <line stroke="#000" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_15" y2="750" x2="355" y1="750" x1="155" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="none"/>
   <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_16" y2="570" x2="355" y1="570" x1="315" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
   <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_17" y2="570" x2="335" y1="470" x1="335" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <rect id="hoverbox" height="0" width="0" x="0" y="0" fill="#044B94" fill-opacity="0.4"/>
  </g>
 </svg>
