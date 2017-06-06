@@ -17,18 +17,32 @@ flr = f.value; //gives string of the floor number (aka value)
 intflr = flr * 1; //convert the string to a number
 
 function getFloorData(flrnbr) {
-    return flrlist[flrnbr];
+  return flrlist[flrnbr];
+}
+
+var currentbox;
+document.getElementById("hoverbox").onclick = function() {
+  console.log(currentbox);
 }
 
 $(document).mousemove(function(event) {
   floordata = getFloorData(f);
   for (i = 0; i < floordata.length; i++) {
-	  if (mouseInArea(event.pageX, event.pageY, floordata[i][1], floordata[i][2], floordata[i][3], floordata[i][4])) {
-	    console.log("Hovering over room: " + floordata[i][0]);
+    if (mouseInArea(event.pageX, event.pageY, floordata[i][1], floordata[i][2], floordata[i][3], floordata[i][4])) {
+      currentbox = floordata[i][0];
+      createSvgBox(floordata[i][1], floordata[i][2], floordata[i][3], floordata[i][4]);
     }
   }
 });
 
+function createSvgBox(x, y, w, h) {
+  rect = document.getElementById("hoverbox");
+  rect.setAttribute('x', x);
+  rect.setAttribute('y', y);
+  rect.setAttribute('width', w);
+  rect.setAttribute('height', h);
+}
+
 function mouseInArea(mouseX, mouseY, x, y, w, h) {
-	return (mouseX > x) && (mouseX < x+w) && (mouseY > y) && (mouseY < y+h);
+  return (mouseX > x) && (mouseX < x+w) && (mouseY > y) && (mouseY < y+h);
 }
