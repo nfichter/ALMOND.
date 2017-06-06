@@ -69,9 +69,8 @@ directions_button.addEventListener("click", function(e){
 
 more_directions_button.addEventListener("click", function(e){
     input_directions.setAttribute('style', 'display:block');
-    
     show_directions.setAttribute('style', 'display:none');
-    
+    hide_directions();
 });
 
 var get_directions = function() {
@@ -102,4 +101,13 @@ var get_directions = function() {
     console.log(svG);
     console.log(svG.childNodes);
     
+};
+
+var hide_directions = function() {
+    var svG = document.getElementById(from_room.value[0]).contentDocument.querySelectorAll('svg')[0];
+    var elements = svG.getElementsByClassName('direct_line');
+    console.log("elements: ", elements);
+    while(elements.length > 0){
+	elements[0].parentNode.removeChild(elements[0]);
+    }
 };
