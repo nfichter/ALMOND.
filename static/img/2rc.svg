@@ -1,3 +1,139 @@
-<svg id="9" height="600" width="300" display="inline">
-  <text x="90" y="333">floor 3</text>
+<svg width="750" height="1000" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="752" height="1002" id="canvas_background" fill="#ffffff"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_1" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#000" id="svg_143" height="39.271914" width="19.935287" y="460.092032" x="355.466701" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#666666"/>
+  <path stroke="#000" id="svg_139" d="m155.203388,832.490503l0,41.612946l84.51612,-41.612946l-84.51612,0z" stroke-width="0" fill="#666666"/>
+  <path stroke="#000" id="svg_138" d="m314.558227,774.748585l0,21.290326l41.290315,-21.290326l-41.290315,0z" stroke-width="0" fill="#666666"/>
+  <path stroke="#000" id="svg_137" d="m270.687258,795.716327l0,21.935487l42.903217,-21.935487l-42.903217,0z" stroke-width="0" fill="#666666"/>
+  <rect stroke="#000" id="svg_136" height="140.588231" width="40.000215" y="635.003411" x="314.501689" stroke-width="0" fill="#666666"/>
+  <rect stroke="#000" id="svg_135" height="38.031715" width="84.500452" y="795.00427" x="155.00083" stroke-width="0" fill="#666666"/>
+  <rect id="svg_119" height="40" width="296" y="530.369939" x="354" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#8CD79F"/>
+  <rect stroke="#000" id="svg_105" height="98.706459" width="64.875623" y="470.497528" x="155.199006" stroke-opacity="null" stroke-width="0" fill="#94d3fc"/>
+  <rect stroke="#000" id="svg_104" height="31.449276" width="61.28986" y="499.235306" x="313.966344" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#8CD79F"/>
+  <rect stroke="#000" id="svg_50" height="40" width="40" y="460.09395" x="314.753695" stroke-width="0" fill="#94d3fc"/>
+  <rect id="svg_51" height="40" width="40" y="529.098355" x="314.753695" stroke-width="0" stroke="#000" fill="#94d3fc"/>
+  <rect id="svg_38" height="20.408155" width="60" y="319.727758" x="295.237962" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#8CD79F"/>
+  <rect stroke="#000" id="svg_20" height="25" width="60" y="380.476136" x="295" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#666666"/>
+  <rect stroke="#000" id="svg_77" height="202.000007" width="50" y="423.999993" x="265.000288" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#8CD79F"/>
+  <rect stroke="#000" id="svg_78" height="30.830846" width="61.28986" y="568.903032" x="314.040441" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#8CD79F"/>
+  <rect stroke="#000" id="svg_53" height="158.159927" width="46.090904" y="470.449028" x="220.909096" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#8CD79F"/>
+  <rect id="svg_43" height="35" width="74" y="125.000224" x="310.086958" stroke-width="0" stroke="#000" fill="#94d3fc"/>
+  <rect id="svg_42" height="35" width="74" y="125.000224" x="235.326077" stroke-width="0" stroke="#000" fill="#94d3fc"/>
+  <rect stroke="#000" id="svg_18" height="180.408154" width="30" y="160" x="354.82968" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#8CD79F"/>
+  <rect id="svg_96" height="35.001984" width="40" y="600.034007" x="315.360847" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#94d3fc"/>
+  <rect id="svg_93" height="34.666663" width="60" y="404.888845" x="295" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#94d3fc"/>
+  <rect id="svg_92" height="40" width="40" y="570" x="195" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#94d3fc"/>
+  <rect id="svg_83" height="20" width="60" y="340.000255" x="295" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ff7777"/>
+  <rect id="svg_82" height="20" width="60" y="359.998022" x="294.68725" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#007fff"/>
+  <rect stroke="#000" id="svg_81" height="15.000089" width="40" y="609.999985" x="195" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#666666"/>
+  <rect stroke="#000" id="svg_73" height="170" width="120" y="625" x="195" stroke-opacity="null" stroke-width="0" fill="#8CD79F"/>
+  <line transform="rotate(90 254.99999999999991,825.2500000000001) " fill="none" stroke="#000" stroke-width="1.5" x1="205" y1="725" x2="305" y2="925.5" id="svg_5" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line transform="rotate(90 214.74999999999991,625.2500000000001) " fill="none" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="214.75" y1="645.25" x2="214.75" y2="605.25" id="svg_8" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line transform="rotate(90 214.74999999999991,610.2500000000001) " fill="none" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="214.75" y1="630.25" x2="214.75" y2="590.25" id="svg_9" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line transform="rotate(90 334.74999999999994,635.2500000000001) " fill="none" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="334.75" y1="655.25" x2="334.75" y2="615.25" id="svg_12" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line transform="rotate(90 324.75,405.1596069335938) " fill="none" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="324.750006" y1="435.159607" x2="324.750006" y2="375.159607" id="svg_27" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line transform="rotate(90 174.74999999999991,700.2500000000001) " fill="none" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="174.75" y1="680.25" x2="174.75" y2="720.25" id="svg_35" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line transform="rotate(90 174.74999999999991,650.2500000000001) " fill="none" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="174.75" y1="630.25" x2="174.75" y2="670.25" id="svg_36" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line transform="rotate(90 324.75,380.25000000000006) " fill="none" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="324.75" y1="410.25" x2="324.75" y2="350.25" id="svg_44" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line transform="rotate(90 332.4731140136719,360.25000000000006) " fill="none" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="332.473114" y1="382.973114" x2="332.473114" y2="337.526888" id="svg_46" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="159.963967" y="616.515625" id="svg_57" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">211</text>
+  <text style="cursor: move;" fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="160.984375" y="681.515625" id="svg_58" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">209</text>
+  <text style="cursor: move;" fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="159.963967" y="731.515625" id="svg_59" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">207</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="160.243638" y="779.700837" id="svg_60" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">205</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="322.803654" y="623.13788" id="svg_64" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">ES</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="311.518918" y="429.226563" id="svg_65" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">WS</text>
+  <text stroke="#000" fill="#000000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="335.000266" y="149" id="svg_66" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">HS</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="205.003486" y="596.882813" id="svg_67" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">EL</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="318.51079" y="376.617188" id="svg_68" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">M</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="317.516798" y="355.679688" id="svg_69" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">W</text>
+  <path id="svg_90" d="m321.25046,785.00503" opacity="0.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#666666"/>
+  <line stroke="#000" fill="none" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="154.577758" y1="570" x2="235" y2="570" id="svg_13" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_3" y2="775" x2="355" y1="600" x1="354.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <rect stroke="#000" id="svg_75" height="265" width="60.000146" y="160" x="235.499965" stroke-opacity="null" stroke-width="0" fill="#8CD79F"/>
+  <line stroke="#000" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_19" y2="125.000156" x2="450" y1="125" x1="155" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_24" y2="124.67563" x2="309.782581" y1="159.612208" x1="309.782581" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <text stroke="#000" fill="#000000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="259.32825" y="149.685031" id="svg_28" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">RS</text>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_21" y2="160" x2="385" y1="160" x1="235.271824" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_48" y2="160" x2="295" y1="320" x1="295" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_49" y2="160" x2="355" y1="320" x1="355" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_52" y2="626" x2="235" y1="570" x1="235.416667" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line fill="none" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="154.577757" y1="470" x2="265" y2="470" id="svg_54" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line stroke="#000" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_55" y2="425.454536" x2="264.999855" y1="470" x1="264.999855" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="none"/>
+  <line stroke="#000" stroke-width="1.5" stroke-linecap="null" stroke-linejoin="null" id="svg_62" y2="425" x2="235" y1="125" x1="235.417211" fill-opacity="null" stroke-opacity="null" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_70" y2="125" x2="155" y1="875" x1="155" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_71" y2="175.000373" x2="235" y1="175.000373" x1="154.586895" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_72" y2="225.000373" x2="235" y1="225.000373" x1="154.586895" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_76" y2="275.000373" x2="235" y1="275.000373" x1="154.586895" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_80" y2="325.000373" x2="235" y1="325.000373" x1="154.586895" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_84" y2="375.000373" x2="235" y1="375.000373" x1="154.586895" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke="#000" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_86" y2="425" x2="265" y1="425" x1="154.586894" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="none"/>
+  <text style="cursor: move;" fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="180.796523" y="357.188387" id="svg_89" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">231</text>
+  <text style="cursor: move;" fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="180.796523" y="405.499907" id="svg_95" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">229</text>
+  <text style="cursor: move;" fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="180.796523" y="307" id="svg_98" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">233</text>
+  <text style="cursor: move;" fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="180.796523" y="255" id="svg_99" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">235</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="180.796523" y="305" id="svg_100" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve"/>
+  <text style="cursor: move;" fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="180.796523" y="205" id="svg_101" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">237</text>
+  <text style="cursor: move;" fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="180.796523" y="155" id="svg_102" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">239</text>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_106" y2="275" x2="450" y1="125" x1="450" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_107" y2="274.701638" x2="450" y1="275" x1="385.24107" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_110" y2="200" x2="450" y1="200" x1="385.24107" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="404.292732" y="244.975567" id="svg_111" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">350</text>
+  <text style="cursor: move;" stroke="#000" fill="#000000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="403" y="169.974535" id="svg_113" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">351</text>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_114" y2="340" x2="385" y1="340" x1="294.878685" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-width="1.5" stroke-linecap="null" stroke-linejoin="null" id="svg_116" y2="320" x2="354.891509" y1="320" x1="295" stroke="#000" fill="none"/>
+  <text style="cursor: move;" stroke="#000" fill="#000000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="310.520683" y="250.083773" id="svg_117" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">236</text>
+  <line stroke="#000" stroke-width="1.5" stroke-linecap="null" stroke-linejoin="null" id="svg_2" y2="569.545455" x2="220" y1="469.545455" x1="220" fill-opacity="null" stroke-opacity="null" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="795" x2="315" y1="599.545455" x1="315" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <text fill="#000000" stroke="#000" stroke-width="0" x="195.588746" y="453.877022" id="svg_14" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">225</text>
+  <line stroke="#000" stroke-width="1.5" stroke-linecap="null" stroke-linejoin="null" id="svg_11" y2="795.37048" x2="240" y1="795.37048" x1="155" fill-opacity="null" stroke-opacity="null" fill="none"/>
+  <line fill="none" stroke-opacity="null" fill-opacity="null" x1="155" y1="750" x2="195" y2="750" id="svg_6" stroke-linejoin="null" stroke-linecap="null" stroke-width="1.5" stroke="#000"/>
+  <line fill="none" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="295.343145" y1="439.705882" x2="375" y2="440" id="svg_30" stroke-linejoin="null" stroke-linecap="null"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_7" y2="795" x2="195" y1="570" x1="195" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_34" y2="440" x2="355" y1="340" x1="355" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_37" y2="440" x2="295" y1="340" x1="295" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-width="1.5" stroke-linecap="null" stroke-linejoin="null" id="svg_39" y2="340" x2="385" y1="125" x1="385" fill-opacity="null" stroke-opacity="null" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_41" y2="460.135135" x2="375" y1="460.135135" x1="315" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_45" y2="500" x2="315" y1="440.135872" x1="315" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <text fill="#000000" stroke="#000" stroke-width="0" x="330.521822" y="456.19833" id="svg_47" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">222</text>
+  <line stroke-width="1.5" stroke-linecap="null" stroke-linejoin="null" id="svg_61" y2="570" x2="355" y1="530" x1="355" stroke="#000" fill="none"/>
+  <line stroke-width="1.5" stroke-linecap="null" stroke-linejoin="null" id="svg_56" y2="500.45045" x2="355" y1="460.36036" x1="355" stroke="#000" fill="none"/>
+  <line stroke-width="1.5" stroke-linecap="null" stroke-linejoin="null" id="svg_63" y2="570" x2="315" y1="530" x1="315" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_79" y2="530" x2="354.504505" y1="530" x1="314.864865" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_87" y2="460.386691" x2="334.782767" y1="499.517144" x1="334.782767" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_88" y2="529.951941" x2="335" y1="570" x1="335" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-width="1.5" stroke="#000" stroke-linecap="null" stroke-linejoin="null" id="svg_91" y2="600.000283" x2="420" y1="599.517191" x1="315" fill-opacity="null" stroke-opacity="null" fill="none"/>
+  <line stroke-width="1.5" stroke-linecap="null" stroke-linejoin="null" id="svg_94" y2="655" x2="394.686177" y1="655" x1="355.072631" fill-opacity="null" stroke-opacity="null" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_97" y2="600" x2="395" y1="654.589681" x1="394.686177" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="359.964059" y="632.457662" id="svg_103" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">260</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="174.655228" y="524.743507" id="svg_108" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">HS</text>
+  <line stroke-width="1.5" stroke-linecap="null" stroke-linejoin="null" id="svg_109" y2="570" x2="375" y1="600" x1="375.124378" fill-opacity="null" stroke-opacity="null" stroke="#000" fill="none"/>
+  <line stroke="#000" stroke-width="1.5" stroke-linecap="null" stroke-linejoin="null" id="svg_112" y2="569.875783" x2="650" y1="569.726027" x1="375.223891" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_115" y2="599.661017" x2="419.661017" y1="569.491525" x1="420" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <text style="cursor: move;" fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="383.014907" y="591.101731" id="svg_118" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">262</text>
+  <line stroke-width="1.5" stroke-linecap="null" stroke-linejoin="null" id="svg_120" y2="500" x2="374.857143" y1="500" x1="354.857143" fill-opacity="null" stroke-opacity="null" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_121" y2="530.285679" x2="374.857143" y1="410" x1="375.428571" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_122" y2="530" x2="650" y1="530.304992" x1="374.546822" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_123" y2="529.999973" x2="500" y1="409.999973" x1="500" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_124" y2="410.285714" x2="375" y1="410.285714" x1="500" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <text fill="#000000" stroke="#000" stroke-width="0" x="419.588746" y="475.019879" id="svg_125" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">THE</text>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_126" y2="530" x2="650" y1="570" x1="650" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_127" y2="490" x2="580" y1="490" x1="500" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_128" y2="490" x2="540" y1="530" x1="540" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_129" y2="490" x2="580" y1="530" x1="580" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <text style="cursor: move;" fill="#000000" stroke="#000" stroke-width="0" x="505.303029" y="516.44845" id="svg_130" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">270</text>
+  <text style="cursor: move;" fill="#000000" stroke="#000" stroke-width="0" x="545.303026" y="516.44845" id="svg_131" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">273</text>
+  <rect stroke="#000" id="svg_142" height="38.479247" width="30" y="794.700104" x="240.092058" stroke-width="0" fill="#8CD79F"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_132" y2="795" x2="240" y1="832.857143" x1="240" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_133" y2="795" x2="270" y1="817" x1="270" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke="#000" stroke-width="1.5" stroke-linecap="null" stroke-linejoin="null" id="svg_134" y2="795.37048" x2="270" y1="795.37048" x1="315" fill-opacity="null" stroke-opacity="null" fill="none"/>
+ </g>
 </svg>
