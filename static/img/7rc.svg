@@ -99,5 +99,6 @@
   <text fill="#000000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="310.984375" y="398.515625" id="svg_74" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" stroke="#000">726</text>
   <path id="svg_90" d="m321.25046,785.00503" opacity="0.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#666666"/>
   <path stroke="#000" transform="rotate(90 335.46377563476557,784.6260986328126) " id="svg_91" d="m325.34154,804.75681l0,-40.26147l20.24446,40.26147l-20.24446,0z" stroke-opacity="null" stroke-width="0" fill="#666666"/>
+  <rect id="hoverbox" height="0" width="0" x="0" y="0" fill="#044B94" fill-opacity="0.4"/>
  </g>
 </svg>
