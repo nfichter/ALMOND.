@@ -105,5 +105,6 @@
   <rect stroke="#000" id="svg_148" height="99.224781" width="101.513555" y="470.542501" x="135.695685" stroke-width="0" fill="#8CD79F"/>
   <line stroke="#000" fill="none" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="154.577758" y1="570" x2="235" y2="570" id="svg_13" stroke-linejoin="undefined" stroke-linecap="undefined"/>
   <line fill="none" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="154.577757" y1="470" x2="235" y2="470" id="svg_54" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <rect id="hoverbox" height="0" width="0" x="0" y="0" fill="#044B94" fill-opacity="0.4"/>
  </g>
 </svg>
