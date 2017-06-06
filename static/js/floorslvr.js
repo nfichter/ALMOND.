@@ -136,5 +136,23 @@ var oneflr = function(strt, end) {
 }
 
 var multiflr = function(strt, end) {
+    fs = parseInt(strt[0]);
+    ff = parseInt(end[0]);
+    flr = floors[strt[0]];
+    retarr = [];
+    if (Math.abs(flr[strt][5]-flr[fs+"WS"][5]) < Math.abs(flr[strt][5]-flr[fs+"ES"][5])){
+	if (Math.abs(flr[strt][5]-flr[fs+"WS"][5]) < Math.abs(flr[strt][5]-flr[fs+"EL"][5])){
+	    retarr = retarr + oneflr(strt, (fs+"WS")) + oneflr((ff+"WS"), end);
+	}
+	if (Math.abs(flr[strt][5]-flr[fs+"WS"][5]) > Math.abs(flr[strt][5]-flr[fs+"EL"][5])){
+	    retarr = retarr + oneflr(strt, (fs+"EL")) + oneflr((ff+"EL"), end);
+	}
+    }
+    else{
+	retarr = retarr + oneflr(strt, (fs+"ES")) + oneflr((ff+"ES"), end);
+    }
+    return retarr;
 }
+
+
 //console.log(oneflr("439", "408"));
