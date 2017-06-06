@@ -124,7 +124,7 @@
   <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="549.823552" y="664.705625" id="svg_122" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">GYM</text>
   <line fill="none" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="235.045777" y1="750" x2="235.045777" y2="813.241386" id="svg_123" stroke-linejoin="undefined" stroke-linecap="undefined"/>
   <line fill="none" stroke="#000" stroke-opacity="null" fill-opacity="null" x1="155.227277" y1="813" x2="234.772732" y2="813.181818" id="svg_11" stroke-linejoin="null" stroke-linecap="null" stroke-width="1.5"/>
-  <line stroke-width="1.5" stroke-linecap="null" stroke-linejoin="null" id="svg_6" y2="750.490196" x2="314.950988" y1="749.509804" x1="194.852949" fill-opacity="null" stroke-opacity="null" stroke="#000" fill="none"/>
+  <line stroke="#000" stroke-width="1.5" stroke-linecap="null" stroke-linejoin="null" id="svg_6" y2="750.490196" x2="314.950988" y1="749.509804" x1="155" fill-opacity="null" stroke-opacity="null" fill="none"/>
   <line stroke-linecap="null" stroke-linejoin="null" id="svg_16" y2="570" x2="355.147066" y1="569.607843" x1="314.950988" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
   <line stroke-linecap="null" stroke-linejoin="null" id="svg_26" y2="570" x2="334.558831" y1="470" x1="335" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
   <line stroke-linecap="null" stroke-linejoin="null" id="svg_30" y2="440" x2="355" y1="439.705882" x1="295.343145" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
