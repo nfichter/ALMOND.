@@ -4,96 +4,106 @@
 
 
 {% block body %}
-<div class="info">
-  <!-- <div class="row"> -->
-    <div id="go_home">
-      <a href="/" class="button hollow">Home</a>
-    </div>
-    <div id="new_floor">
-      <span class="button alert" id="decrement">Go Down</span>
-      <span id="current_floor" class="centerme">4</span>
-      <span class="button success"  id="increment">Go Up</span>
-      <h3>Current Floor</h3>
-    </div>
-  </div>
-<!-- </div> -->
+<div class="row">
+	<div class="info">
+	  <!-- <div class="row"> -->
+		<div id="go_home">
+		  <a href="/" class="button hollow">Home</a>
+		</div>
+		<br><br>
+	  </div>
+	<!-- </div> -->
 
-<div class="holy-grail-grid">
-  <div class="holy-grail-left">
+	<div class="holy-grail-grid">
+	  <div class="holy-grail-left">
 
-    <div id="input_directions">
-      <h3>Get directions</h3>
-      <table class="prompt">
-	<tr>
-	  <td>From room number:</td>
-	  <td><input id="from_room" value="431"></input></td>
-	</tr>
-	<tr>
-	  <td>To room number:</td>
-	  <td><input id="to_room" value="405"></input></td>
-	</tr>
-      </table>
-      <div id="get_directions">
-	<span class="button large alert hollow" id="directions_button">Get Directions</span>
-      </div>
-    </div>
-    <div id="show_directions" style="display:none">
-      <ol>
-	<li>Follow the red line on the map</li>
-      </ol>
-      
-      <div id="get_directions">
-	<span class="button large success hollow" id="more_directions_button">Go somewhere else</span>
-      </div>
-    </div>
-      
-  </div>
+		<div id="input_directions">
+		  <h3>Get directions</h3>
+		  <table class="prompt">
+		<tr>
+		  <td>From room number:</td>
+		  <td><input id="from_room" value="431"></input></td>
+		</tr>
+		<tr>
+		  <td>To room number:</td>
+		  <td><input id="to_room" value="405"></input></td>
+		</tr>
+		  </table>
+		  <div id="get_directions">
+		<span class="button large alert hollow" id="directions_button">Get Directions</span>
+		  </div>
+		</div>
+		<div id="show_directions" style="display:none">
+		  <ol>
+		<li>Follow the red line on the map</li>
+		  </ol>
+	  
+		  <div id="get_directions">
+		<span class="button large success hollow" id="more_directions_button">Go somewhere else</span>
+		  </div>
+		</div>
+	  
+	  	<div id="new_floor" class="row">
+			<div class="small-1 columns">
+				<span class="button alert" id="decrement">Go Down</span>
+			</div>
+			<div class="small-2 columns small-push-3">
+				<span id="current_floor">4</span>
+			</div>
+			<div class="small-1 columns small-push-3">
+				<span class="button success"  id="increment">Go Up</span>
+			</div>
+			<br>
+		</div>
+	  
+	  </div>
 
-  <div class="holy-grail-middle">
-    <h3>Map</h3>
-    <div id="map">
-      <object data="static/img/1rc.svg" type="image/svg+xml" id="1" width="0" height="1000px" > </object>
-      <object data="static/img/2rc.svg" type="image/svg+xml" id="2" width="0px" height="1000px" > </object>
-      <object data="static/img/3rc.svg" type="image/svg+xml" id="3" width="0px" height="1000px" > </object>
-      <object data="static/img/4rc.svg" type="image/svg+xml" id="4" width="750px" height="1000px" > </object>
-      <object data="static/img/5rc.svg" type="image/svg+xml" id="5" width="0px" height="1000px" > </object>
-      <object data="static/img/6rc.svg" type="image/svg+xml" id="6" width="0px" height="1000px" > </object>
-      <object data="static/img/7rc.svg" type="image/svg+xml" id="7" width="0px" height="1000px" > </object>
-      <object data="static/img/8rc.svg" type="image/svg+xml" id="8" width="0px" height="1000px" > </object>
-      <object data="static/img/9rc.svg" type="image/svg+xml" id="9" width="0px" height="1000px" > </object>
-      <object data="static/img/10rc.svg" type="image/svg+xml" id="10" width="0px" height="1000px" > </object>
-    </div>
-    
-  </div>
+	  <div class="holy-grail-middle">
+		<h3>Map</h3>
+		<div id="map">
+		  <object data="static/img/1rc.svg" type="image/svg+xml" id="1" width="0" height="1000px" > </object>
+		  <object data="static/img/2rc.svg" type="image/svg+xml" id="2" width="0px" height="1000px" > </object>
+		  <object data="static/img/3rc.svg" type="image/svg+xml" id="3" width="0px" height="1000px" > </object>
+		  <object data="static/img/4rc.svg" type="image/svg+xml" id="4" width="750px" height="1000px" > </object>
+		  <object data="static/img/5rc.svg" type="image/svg+xml" id="5" width="0px" height="1000px" > </object>
+		  <object data="static/img/6rc.svg" type="image/svg+xml" id="6" width="0px" height="1000px" > </object>
+		  <object data="static/img/7rc.svg" type="image/svg+xml" id="7" width="0px" height="1000px" > </object>
+		  <object data="static/img/8rc.svg" type="image/svg+xml" id="8" width="0px" height="1000px" > </object>
+		  <object data="static/img/9rc.svg" type="image/svg+xml" id="9" width="0px" height="1000px" > </object>
+		  <object data="static/img/10rc.svg" type="image/svg+xml" id="10" width="0px" height="1000px" > </object>
+		</div>
+	
+	  </div>
 
-  <div class="holy-grail-right">
-    <h3>How to Orient Yourself</h3>
-    <ol>
-      <li>In a hallway, stand so that an odd number room is on your left, and an even number room is on your right.</li>
-      <li>Now, <strong>forward</strong> from where you are standing is <strong>up</strong> on the map.</li>
-      <li>Conversly, <strong>backward</strong> is now <strong>down</strong> on the map.</li>
-    </ol>
-  </div>
-  <div class="holy-grail-footer">
-    <div class="row medium-unstack">
-      <div class="medium-4 columns">
-	<h4>Powered by Team ALMOND.</h4>
-	<ul>
-  	  <li>Chloe Delfau</li>
-  	  <li>Noah Fisher</li>
-  	  <li>Asher Laderdaysaints</li>
-  	  <li>Jack Schluger</li>
-      </ul>
-      </div>
-      <div class="medium-4 columns">
-	<h4>Contact Info</h4>
-	<div class="marketing-site-footer-block">
-          <i class="fa fa-map-marker" aria-hidden="true"></i>
-          <p>345 Chambers Street<br>New York City, NY 10282</p>
+	  <div class="holy-grail-right">
+		<h3>How to Orient Yourself</h3>
+		<ol>
+		  <li>In a hallway, stand so that an odd number room is on your left, and an even number room is on your right.</li>
+		  <li>Now, <strong>forward</strong> from where you are standing is <strong>up</strong> on the map.</li>
+		  <li>Conversly, <strong>backward</strong> is now <strong>down</strong> on the map.</li>
+		</ol>
+	  </div>
+	  <div class="holy-grail-footer">
+		<div class="row medium-unstack">
+		  <div class="medium-4 columns">
+		<h4>Powered by Team ALMOND.</h4>
+		<ul>
+		  <li>Chloe Delfau</li>
+		  <li>Noah Fisher</li>
+		  <li>Asher Laderdaysaints</li>
+		  <li>Jack Schluger</li>
+		  </ul>
+		  </div>
+		  <div class="medium-4 columns">
+		<h4>Contact Info</h4>
+		<div class="marketing-site-footer-block">
+			  <i class="fa fa-map-marker" aria-hidden="true"></i>
+			  <p>345 Chambers Street<br>New York City, NY 10282</p>
+		</div>
+		  </div>
+		</div>
+	  </div>
 	</div>
-      </div>
-    </div>
-  </div>
 </div>
 
 {% endblock %}
