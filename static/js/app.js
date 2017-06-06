@@ -56,22 +56,50 @@ var directions_button = document.getElementById("directions_button");
 var input_directions = document.getElementById("input_directions");
 var show_directions = document.getElementById("show_directions");
 var more_directions_button = document.getElementById("more_directions_button");
-//console.log(input_directions)
+
+var to_room = document.getElementById("to_room");
+var from_room = document.getElementById("from_room");
 
 directions_button.addEventListener("click", function(e){
     input_directions.setAttribute('style', 'display:none');
-    get_directions();
     show_directions.setAttribute('style', 'display:block');
+    get_directions();
     
 });
 
 more_directions_button.addEventListener("click", function(e){
     input_directions.setAttribute('style', 'display:block');
-
+    
     show_directions.setAttribute('style', 'display:none');
     
 });
 
 var get_directions = function() {
-    console.log("we need to get some directions");
+    var cords = oneflr(from_room.value, to_room.value);
+    console.log("going from here to here: ", cords);
+    var svG = document.getElementById(from_room.value[0]).contentDocument.querySelectorAll('svg')[0];
+
+    console.log("svG: ", svG);
+    console.log("and the kids: ", svG.childNodes);
+
+    var x0, x1, y0, y1;
+    for (var i = 0; i < 3; i++,
+	     x0=cords[i][0], x1=cords[i+1][0],
+	     y0=cords[i][1], y1=cords[i+1][1] 
+	){
+	
+	var new_line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+	new_line.setAttribute('x1', x0);
+	new_line.setAttribute('y1', y0);
+	new_line.setAttribute('x2', x1);
+	new_line.setAttribute('y2', y1);
+	new_line.setAttribute('stroke', "red");
+	new_line.setAttribute('stroke-width', 5);
+	new_line.setAttribute('class', "direct_line");
+	
+	svG.appendChild(new_line);
+    }
+    console.log(svG);
+    console.log(svG.childNodes);
+    
 };
