@@ -15,3 +15,20 @@ var flrlist = [floor0, floor1, floor2, floor3, floor4, floor5, floor6, floor7, f
 f = document.getElementById("current_floor"); 
 flr = f.value; //gives string of the floor number (aka value)
 intflr = flr * 1; //convert the string to a number
+
+function getFloorData(flrnbr) {
+    return flrlist[flrnbr];
+}
+
+$(document).mousemove(function(event) {
+  floordata = getFloorData(f);
+  for (i = 0; i < floordata.length; i++) {
+	  if (mouseInArea(event.pageX, event.pageY, floordata[i][1], floordata[i][2], floordata[i][3], floordata[i][4])) {
+	    console.log("Hovering over room: " + floordata[i][0]);
+    }
+  }
+});
+
+function mouseInArea(mouseX, mouseY, x, y, w, h) {
+	return (mouseX > x) && (mouseX < x+w) && (mouseY > y) && (mouseY < y+h);
+}
