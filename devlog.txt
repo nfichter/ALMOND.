@@ -164,3 +164,7 @@ noahF -- 18:30
 chloeD -- 0:45
 - reformatted all the data
 - worked with Noah on mouse stuff
+
+jackS -- 1:37
+- added drawing lines for directions
+- added removing drawn lines ^ when user requests more directions
