@@ -118,22 +118,16 @@ var oneflr = function(strt, end) {
                 lns[lns.length] = [flr[AL][0] , flr[AL][3]];
 	        lns[lns.length] = [flr[CL][0] , flr[AL][3]];
      	    }
-    
+    }   
     //making 3rd coord		
-    lns[lns.length] = [flr[CL][0] , flr[end][5]]
+    lns[lns.length] = [flr[CL][0] , flr[end][5]];
 
     //making 4th coord
-    lns[lns.length] = [flr[CL][4] , flr[end][5]]
+    lns[lns.length] = [flr[CL][4] , flr[end][5]];
 
-    return lns
+    return lns;
     
 
 }
-    
-    
 
-
-
-
-
-
+    console.log(oneflr(439, 408);
