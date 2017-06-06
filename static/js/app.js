@@ -82,7 +82,7 @@ var get_directions = function() {
     console.log("and the kids: ", svG.childNodes);
 
     var x0, x1, y0, y1;
-    for (var i = 0; i < 3; i++,
+    for (var i = 0; i < cords.length - 1; i++,
 	     x0=cords[i][0], x1=cords[i+1][0],
 	     y0=cords[i][1], y1=cords[i+1][1] 
 	){
