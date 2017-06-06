@@ -27,8 +27,10 @@ document.getElementById("hoverbox").onclick = function() {
 
 $(document).mousemove(function(event) {
   floordata = getFloorData(f);
+  var svgElement = document.getElementById(flr);
+  var offset = svgElement.offset();
   for (i = 0; i < floordata.length; i++) {
-    if (mouseInArea(event.pageX, event.pageY, floordata[i][1], floordata[i][2], floordata[i][3], floordata[i][4])) {
+    if (mouseInArea(event.pageX-offset.left, event.pageY-offset.top, floordata[i][1], floordata[i][2], floordata[i][3], floordata[i][4])) {
       currentbox = floordata[i][0];
       createSvgBox(floordata[i][1], floordata[i][2], floordata[i][3], floordata[i][4]);
     }
