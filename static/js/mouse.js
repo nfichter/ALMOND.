@@ -1,6 +1,4 @@
-//var floordata = "coords.txt";
-
-//var floor0 = []);
+//var floor0 = [];
 //var floor1 = [];
 //var floor2 = [];
 //var floor3 = [];
@@ -12,7 +10,7 @@ var floor8 = [['839', 156, 126, 78, 48], ['837', 156, 176, 78, 48], ['835', 156,
 //floor9 = [];
 //floor10 = [];
 
-//var flrlist = new List(floor0, floor1, floor2, floor3, floor4, floor5, floor6, floor7, floor8, floor9, floor10);
+//var flrlist = [floor0, floor1, floor2, floor3, floor4, floor5, floor6, floor7, floor8, floor9, floor10];
 var flrlist = [floor7, floor8];
 
 f = document.getElementById("current_floor"); 
@@ -24,54 +22,29 @@ function getFloorData(flrnbr) {
     return flrlist[flrnbr];
 }
 
-//function hover(mouseX, mouseY, flrnbr) {
-//    floordata = getFloorData(flrnbr);
-//}
+function getRoomData(e, flrnbr) {
+    var mouseX = e.offsetX;
+    var mouseY = e.offsetY;
+    floordata = getFloorData(flrnbr);
+    for (i = 0; i < floordata.length; i++) {
+	if ((floordata[i][1] <= mouseX <= (floordata[i][1] + floordata[i][3])) && (floordata[i][2] <= mouseX <= (floordata[i][2] + floordata[i][4])))
+	    return floordata[i]; //returns a list with the room data and the room coordinates
+    };
+    return "wrong floor";
+};
 
-//function GetCoordinates(e)
-//{
-//  var PosX = 0;
-//  var PosY = 0;
-//  var ImgPos;
-//  ImgPos = FindPosition(myImg);
-//  if (!e) var e = window.event;
-//  if (e.pageX || e.pageY)
-//  {
-//    PosX = e.pageX;
-//    PosY = e.pageY;
-//  }
-//  else if (e.clientX || e.clientY)
-//    {
-//      PosX = e.clientX + document.body.scrollLeft
-//        + document.documentElement.scrollLeft;
-//      PosY = e.clientY + document.body.scrollTop
-//        + document.documentElement.scrollTop;
-//    }
-//  PosX = PosX - ImgPos[0];
-//  PosY = PosY - ImgPos[1];
-//  document.getElementById("x").innerHTML = PosX;
-//  document.getElementById("y").innerHTML = PosY;
+function getRoom(flrnbr) {
+    roomdata = getRoomData(e, flrnbr);
+    return roomdata[0]; //returns the string room name
+};
 
-//function hover(e, flrnbr) {
-//    floordata = getFloorData(flrnbr);
-//    var mouseX = e.offsetX;
-//    var mouseY = e.offsetY;
-//    print mouseX;
-//}
+function hover(flrnbr, svg) {
+    //call get room data
+    //create a rectangle with the coordinates from the list
+    //make it a certain color and a non-opaque transparency
+};
 
-//function getFloorData(flrnbr) { //takes int of the floor number
-//    var getCoords = floordata[flrnbr-7];
-//    alert("Floor..." + getCoords);
-//    browser.setAttributeNS(xlinkNS, "href", getCoords);
-//    return "hello"
-//}
-//print getFloorData(flr)
 
-//function hover(mouseX, mouseY, floor) {
-// go to the list of rooms/their coordinates for you floor
-//then do a loop going thru each list and checking if mousex and mousey fit between the coords
-//return the room #
-//}
 
 //function click(mouseX, mouseY) {
 //add an event listener for click that calls hover so like you know what room your mouse is on
@@ -81,6 +54,4 @@ function getFloorData(flrnbr) {
 //    return 
 //}
 
-//print getFloorData(flrnbr);
-//c.addEventListener('click', click);
 
