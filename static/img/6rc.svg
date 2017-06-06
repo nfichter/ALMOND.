@@ -95,5 +95,6 @@
   <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_33" y2="280" x2="295" y1="280" x1="355" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
   <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_34" y2="220" x2="355" y1="220" x1="295" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
   <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_35" y2="750" x2="195.089286" y1="540.178571" x1="195.089286" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <rect id="hoverbox" height="0" width="0" x="0" y="0" fill="#044B94" fill-opacity="0.4"/>
  </g>
 </svg>
