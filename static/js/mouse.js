@@ -24,7 +24,7 @@ window.onload = function() {
 	var svgElement = document.getElementById(current_floor_value).contentDocument.querySelectorAll('svg')[0];
 
 	svgElement.getElementById("hoverbox").onclick = function() {
-	  console.log(currentbox);
+	  to_room.value = currentbox;
 	}
 
 	svgElement.onmousemove = function(event) {
@@ -32,7 +32,6 @@ window.onload = function() {
 	  for (i = 0; i < floordata.length; i++) {
 		if (mouseInArea(event.offsetX, event.offsetY, floordata[i][1], floordata[i][2], floordata[i][3], floordata[i][4])) {
 		  currentbox = floordata[i][0];
-		  console.log(currentbox);
 		  createSvgBox(floordata[i][1], floordata[i][2], floordata[i][3], floordata[i][4]);
 		}
 	  }
