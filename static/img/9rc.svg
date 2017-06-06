@@ -91,5 +91,6 @@
   <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_109" y="291" x="180.131666" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">931</text>
   <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_110" y="227" x="180.131666" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">935</text>
   <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_111" y="163" x="180.131666" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">939</text>
+  <rect id="hoverbox" height="0" width="0" x="0" y="0" fill="#044B94" fill-opacity="0.4"/>
  </g>
 </svg>
