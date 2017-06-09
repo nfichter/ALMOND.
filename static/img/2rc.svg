@@ -35,6 +35,7 @@
   <rect fill="#ff7777" stroke="#000" stroke-width="0" stroke-opacity="null" x="295" y="340.000255" width="60" height="20" id="svg_83"/>
   <rect fill="#007fff" stroke="#000" stroke-width="0" stroke-opacity="null" x="294.68725" y="359.998022" width="60" height="20" id="svg_82"/>
   <rect fill="#666666" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="195" y="609.999985" width="40" height="15.000089" id="svg_81" stroke="#000"/>
+  <rect id="hoverbox" height="0" width="0" x="0" y="0" fill="#044B94" fill-opacity="0.4"/>
   <rect fill="#8CD79F" stroke-width="0" stroke-opacity="null" x="195" y="625" width="120" height="170" id="svg_73" stroke="#000"/>
   <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_5" y2="925.5" x2="305" y1="725" x1="205" stroke-width="1.5" stroke="#000" fill="none" transform="rotate(90 254.99999999999991,825.2500000000001) "/>
   <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_8" y2="605.25" x2="214.75" y1="645.25" x1="214.75" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none" transform="rotate(90 214.74999999999991,625.2500000000001) "/>
