@@ -339,4 +339,8 @@ var multiflr = function(strt, end) {
 };
 
 
+//if statement to test if we will need single or multifloor funcitonalities
+//aka check if the first number in the from room number matches the first number in the to room number
+//if the numbers match, call the oneflr function with the to room and the from room
+//if the numbers do not match, call the multiflr function with the to room and the from room, which is essentially calling the oneflr function on the to room and the nearest staircase, and then a second time on the same staircase on a different floor and the to room 
 //console.log(oneflr("439", "408"));
